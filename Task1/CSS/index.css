@@ -1,0 +1,1371 @@
+
+/* Header Section */
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+}
+.HeaderContainer{
+    width: 85%;
+    margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.services{
+display: flex;
+align-items: center;
+}
+.logo
+{
+   
+    position: absolute;
+    margin-top: 20px;
+   
+}
+.navbar{
+    gap: 20px;
+   
+}
+.navbar a{
+    text-decoration: none;
+
+}
+.navbar ul{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+  
+   
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 16px;
+     font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: #002746;
+    
+}
+.navbar ul .button{
+    padding: 10px 5px;
+    background-color: #EA3A1C;
+    
+}
+.button{
+    padding: 10px 5px;
+    background-color: #EA3A1C;
+}
+
+/* Background Image Section 1 */
+
+.imagediv{
+    background-image: url("../Images/Clip.png");
+    background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;  
+}
+.imagesdiv_body{
+    margin-left: 150px;
+    width: 85%;
+    margin: auto;
+}
+.imagesdiv_body_text{
+    color: white;
+}
+.imagesdiv_body_paragraph{
+    color: white;
+}
+.Button1{
+    color: #002746;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: white;
+}
+.Button2{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #EA3A1C;
+}
+.RectangleBanner_Container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.RectangleBanner{
+    background-image: url("../Images/rectanglediv.png");
+    height: 90px;
+    width:70%;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+}
+.ClockSection{
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+}
+.clocktext{
+    color: white;
+}
+.DollarSection{
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+}
+.dollartext{
+    color: white;
+}
+.CupSection{
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+}
+.cuptext{
+    color: white;
+}
+
+/*  PlumbingSectionDiv */
+.PlumbingContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    
+}
+.PlumbingSectionDiv{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.PlumbingSectionText{
+    color:#002746;
+    font-size: 30px;
+    margin-top: 12px;
+}
+.PlumbingSectionParagrapgh{
+   width: 440px;
+   color:black;
+   font-size: 15px;
+}
+.PlumbingSectionParagraph2{
+    color:#002746;
+    width: 500px;
+    font-size: 20px;
+
+}
+.Buttondiv3{
+    position: absolute;
+    padding: 10px 25px;
+    background-color: #EA3A1C;
+}
+.Button3{
+    color: white;
+    text-decoration: none;
+}
+.BackgroundDiv2{
+background-color: #313338;
+width: 100%;
+height: 100vh; 
+position: absolute;   
+
+}
+.Clip3Image{
+width: 100%;  
+height: 100vh;   
+opacity: 0.6;
+}
+.cardstext{
+    display: flex;
+    justify-content: center;
+}
+.cardssectiontext{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+.BackgroundDiv2{
+    position: absolute;
+}
+.card {
+    width: 250px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+  }
+  .Imagediv2{
+   position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  .container {
+    padding: 2px 16px;
+    z-index: 1;    
+  }
+  .CardMain{
+    display: flex;
+    gap: 20px;
+
+  }
+.PlumbingSectionDiv_img{
+    height: 300px;
+} 
+.PlumbingSectionDiv_img img{
+height:100%;
+width:100%;
+}
+
+/* Card Image Div */
+.CardContainer{
+    display: flex;
+    justify-content: center;
+}
+.CardImageDiv{
+    background-image: url("../Images/Rectangle6.png") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+     height: 100vh;
+     width: 100%;
+     padding-bottom: 70px;
+}
+.CardBody_cardsmain{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.CardBody_Heading{
+color: white;
+text-align: center;
+  padding: 20px;
+}
+.CardBody_card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 450px;
+    width: 300px;
+    background-color: white;
+}
+.CardBody_card_container{
+    padding: 2px 16px;
+    
+}
+.CardBody_Logo{
+display: flex;
+justify-content: center;
+margin-top: -40px;
+}
+.CardBody_Logo_image{
+    height: 80px;
+}
+.CardBody_card_container_text{
+    text-align: center;
+    color: #002746;
+    margin-top: 2px;
+}
+.CardBody_card_container_paragraph{
+    text-align: center;
+    margin-top: 0px;
+    color: #606263;
+}
+.CardBody_Button{
+   
+    padding: 10px 25px;
+    background-color: #EA3A1C;
+    color: white;
+    text-decoration: none;
+}
+.CardBody_ButtonDiv{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.Section4tdiv_text{
+    color: #002746;
+    text-align: center;
+}
+.Section4ListMain{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+.PlumbingListMain_Listing ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.HvacListMain_Listing ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.PlumbingListMain_Text{
+    color: #18588A;
+    margin-left: 45px;
+    font-size: 25px;
+}
+.HvacListMain_Text{
+    color: #18588A;
+    margin-left: 45px;
+    font-size: 25px;
+}
+.PlumbingListMain_Listing ul li::before{
+
+        content: "\2713";
+        background-color:#002746;
+        color: #fff;
+        border-radius: 50%;
+        padding: 2px 5px;
+        margin-right: 5px;
+      
+}
+
+.HvacListMain_Listing ul li::before{
+    content: "\2713";
+    background-color:#002746;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 5px;
+    margin-right: 5px;
+  
+}
+
+.Section4Paragraphdiv_text{
+    text-align: center;
+    color: #003660;
+    font-size: 25px;
+}
+
+.Section4_Button{
+    padding: 10px 25px;
+    background-color: #EA3A1C;
+    color: white;
+    text-decoration: none;
+}
+.Section4_ButtonDiv{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.LineShapeDiv img{
+    margin-right: 250px;
+    height: 60px;
+    width: 280px;
+    margin-top: 23px;   
+}
+.LineShapeDiv1 img{
+    margin-left: 280px;
+    margin-top: -150px;
+    width: 246px;
+    height: 80px;
+}
+.ArrowLogo img{
+    background-color: white;
+   z-index: 1;
+   position: absolute;
+   /* padding: 5px; */
+   border-radius: 50px;
+   margin-top: -69px;
+   margin-left: 100px;
+   padding: 10px 10px;
+   height: 15px;
+   width: 15px;
+}
+.ArrowLogo1 img{
+    background-color: white;
+    margin-top: -73px;
+    margin-left: -180px;
+   position: absolute;
+   height: 15px;
+   width: 15px;
+   padding: 10px 10px;
+   border-radius: 100px;
+}
+
+.howgetstart_color{
+background-color: #003660;
+height: 200px;
+margin-bottom: 5px;
+color: #fff;
+text-align: center;
+}
+.howgetstart_color h2{
+    padding-top: 30px;
+    font-size: 30px;
+}
+.howgetstart_card_body {
+    width: 20%;
+    height: 350px;
+   
+}
+.howgetstart_card_body_image{
+    display: flex;
+    justify-content: center;
+}
+.howgetstart_card_body_image img{
+    height: 200px;
+    
+   
+    /* width: 100%; */
+}
+.howgetstart_card_desp{
+    padding: 2px 16px;
+}
+.howgetstart_card_desp h4 {
+    text-align: center;
+    margin-top: -20px;
+    padding: 10px;
+    color:#18588A;
+    font-weight: bold;
+}
+.howgetstart_card_desp p {
+    text-align: center;
+    margin-top: -20px;
+    color: #606263;
+}
+.howgetstart_card{
+    display: flex;
+    justify-content: center; 
+    margin-top: -110px;
+    gap:10px
+
+}
+.howgetstart_paragrapgh p{
+    text-align: center;
+    color: #002746;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: -25px;
+}
+.howgetstart_Button{
+    padding: 10px 25px;
+    background-color: #EA3A1C;
+    color: white;
+    text-decoration: none;
+    margin-top: -30px;
+    margin-bottom: 80px;
+}
+.howgetstart_ButtonDiv{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+/* Section 6 */
+.Section6_main{
+    background-color: #F2F9FF;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+   
+}
+.Section6_div{
+    margin-left: 100px;
+}
+.Section6_Background p {
+    width: 450px;
+    font-size: 30px;
+}
+
+.Section6_Background_paragrapgh1 p{
+    width: 450px;
+    font-size: 30px;
+    color: #00355E;
+    margin-left: 20px;
+}
+.Section6_Background_paragrapgh2 p{
+    width: 600px;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+.Section6_Button{
+    padding: 10px 25px;
+    background-color: #EA3A1C;
+    color: white;
+    text-decoration: none;
+}
+.Section6_ButtonDiv{
+    padding: 15px;
+    margin-top: 0px;
+}
+.Section6_Main_ImageDiv img{
+    height: 400px;
+    margin-top: -60px;
+}
+
+
+/* Success Stories */
+.SuccessStories_Main{
+    background-color: silver;
+    padding: 30px;
+}
+.SuccessStories_Text h3{
+    text-align: center;
+    font-size: 30px;
+    color: #00355E;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.SuccessStories_Paragraph p {
+    text-align: center;
+    font-size: 25px;
+    color: #003660;
+}
+.SuccessStories_ParagraphDiv_text{
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.SuccessStories_ParagraphDiv{
+    display: flex;
+    gap: 20px;
+}
+.SuccessStories_Users_Body{
+    display: flex;
+    gap:10px;
+    align-items: center;
+     
+}
+.SuccessStories_Users_Body2{
+    display: flex;
+    gap:10px;
+    align-items: center;
+
+}
+.SuccessStories_Users_Body2{
+    display: flex;
+    align-items: center;
+    
+}
+.SuccessStories_Users_Text1 p{
+ color: #18588A;
+ width: 200px;
+}
+.SuccessStories_Users_Text2 p{
+    margin-top: -10px;
+}
+.SuccessStories_Users_Image img{
+    height: 70px;
+
+}
+
+.SuccessStories_Users_Section{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.SuccessStories_GoogleImageDiv img{
+    margin-top: 20px;
+   
+}
+/* Star Services */
+.StarServices_Main{
+    padding-bottom: 20px;
+}
+.StarServices_Main_Body{
+    text-align: center;
+    padding:20px;
+    color: #002746;
+    font-weight: bold;
+}
+.StarServices_Main_Body_Services{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+.FastMain_Body_ImageText{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.FastMain_Body_ImageText img{
+background-color: #002746;
+padding: 10px 10px;
+border-radius: 10px;
+}
+.FastMain_Body_ImageText h2{
+color:#00355E;
+font-weight: bold;
+}
+.FastMain_Body_Paragrapgh p{
+    width: 350px;
+    color: #606263;
+    
+}
+
+.CourteousPolite_Body_ImageText{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.CourteousPolite_Body_ImageText img{
+background-color: #002746;
+padding: 10px 10px;
+border-radius: 10px;
+}
+.CourteousPolite_Body_ImageText h2{
+color:#00355E;
+font-weight: bold;
+}
+.CourteousPolite_Paragrapgh p{
+    width: 350px;
+    color: #606263;    
+}
+
+
+.Reliable_Body_ImageText{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Reliable_Body_ImageText img{
+background-color: #002746;
+padding: 10px 10px;
+border-radius: 10px;
+}
+.Reliable_Body_ImageText h2{
+color:#00355E;
+font-weight: bold;
+}
+.Reliable_Body_Paragrapgh{
+    width: 350px;
+    color: #606263;
+    margin-top: 1px;
+    margin-left: 2px;    
+}
+.StarServices_Button{
+    padding: 10px 25px;
+    background-color: #EA3A1C;
+    color: white;
+    text-decoration: none;
+   
+}
+.StarServices_ButtonDiv{
+   margin: 40px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+/* About Iamge Background */
+.AboutIamgeBackground_Main{
+    padding-bottom: 20px;
+   
+}
+.AboutIamgeBackground_body{
+    background-image: url("../Images/AboutIamgeBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;   
+}
+.AboutIamgeBackground_body_Content{
+    margin-left: 80px;
+}
+.AboutIamgeBackground_body h3{
+    color: white;
+    font-size: 30px;
+}
+.AboutIamgeBackground_body p{
+    color: white;
+    font-size: 15px;
+    width: 550px;
+}
+.AboutIamgeBackground_body a{
+    color: white;
+    font-size: 20px;
+}
+.AboutIamgeBackground_body span{
+    color: white;
+}
+.LearnMoreImageDiv {
+    display: flex;
+    gap: 5px;
+}
+.LearnMoreImageDiv img{
+    height: 10px;
+    margin-top: 10px;
+}
+.LearnMoreImageDiv a{
+    margin-top: 0px;
+}
+
+/* Frequently Asked Questions */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 4px 18px 4px 0px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\21F1';
+    color: #002746;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .accordion .active:after {
+    content: "\21F2";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+.FrequentlyQuestions_Main{
+padding-bottom: 30px;
+
+}
+.FrequentlyQuestions_Body h3{
+color: #003660;
+text-align: center;
+font-size: 30px;
+}
+.FrequentlyQuestions_LeftSide{
+    /* background-color: #F0F7FC; */
+    background-color: #F0F7FC;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.FrequentlyQuestions_LeftSide img{
+ height: 10px;
+ margin-left: 20px;
+}
+.FrequentlyQuestions_LeftSide::before{
+    content: "Que";
+    background-color: silver;
+    padding: 15px 15px;
+    color: #00355E;
+    font-weight: bold;
+}
+.FrequentlyQuestions_LeftSide_Answer p{
+    width: 480px;
+    background-color: #F0F7FC;
+    margin-top: 0px;
+    padding-top: 20px;
+   padding-left: 20px;
+   font-size: 15px;
+   padding-bottom: 15px;
+}
+
+
+.FrequentlyQuestions_RightSide{
+    /* background-color: #F0F7FC; */
+    background-color: #F0F7FC;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.FrequentlyQuestions_RightSide img{
+ height: 10px;
+ margin-left: 20px;
+}
+.FrequentlyQuestions_RightSide::before{
+    content: "Que";
+    background-color: silver;
+    padding: 15px 15px;
+    color: #00355E;
+    font-weight: bold;
+}
+.FrequentlyQuestions_RightSide_Answer p{
+    width: 480px;
+    background-color: #F0F7FC;
+    margin-top: 0px;
+    padding-top: 20px;
+   padding-left: 20px;
+   font-size: 15px;
+   padding-bottom: 15px;
+}
+.FrequentlyQuestions_Questions{
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+
+/* Footer Section */
+.FooterDiv_Main{
+    padding-bottom: 20px;
+}
+.FooterDetails_Main{
+    display: flex;
+    justify-content: center;
+    gap:60px
+}
+.FooterDiv_Main_Body{
+    background-image: url("../Images/FooterImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.FooterDiv_Main_Body h3{
+    text-align: center;
+    color: white;
+}
+.FooterDetails_Main_Body_LocationDiv h3{
+    color: #00355E;
+    margin-bottom: 5PX;
+}
+.FooterDetails_Main_Body_LocationDiv P{
+    margin-top: 0PX;
+    font-size: 15px;
+    color: black;
+}
+.FooterDetails_Main_Body_PhoneNumberDiv h3{
+    color: #00355E;
+    margin-bottom: 5PX;
+}
+.FooterDetails_Main_Body_PhoneNumberDiv p{
+    margin-top: 0PX;
+    font-size: 15px;
+    color: black; 
+}
+.PhoneAndNumberDiv{
+ display: flex;
+ align-items: center;
+
+}
+.PhoneAndNumberDiv h3{
+    font-weight: bold;
+}
+.PhoneAndNumberDiv p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.PhoneAndNumberDiv img{
+    height:30px;
+    margin-top: -5px;  
+}
+.FooterDetails_Main_Body_Services h3{
+    color: #00355E;
+    margin-bottom: 5PX;
+}
+.ServicesDiv p{
+    font-size: 15px;
+    margin-top: 5px; 
+}
+.FooterDetails_Main_Body_About h3{
+    color: #00355E;
+    margin-bottom: 5PX;
+}
+.AboutDiv a{
+    text-decoration: none;
+    color: black;
+
+}
+.AboutDiv ul{
+    list-style: none;
+}
+.AboutDiv  li{
+    margin-right: 40px;
+    list-style: none;
+}
+.SocailMediaIconDiv
+{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.FooterDetails_Main_Body_SocailMedia h3{
+    color: #00355E;
+    margin-bottom: 5PX;
+    font-weight: bold;
+}
+
+.FacebookIcon Img{
+    background-color: #002746;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.TweeterIcon img{
+    background-color: silver;
+    border-radius:30px;
+    padding: 11px;
+}
+.LinkedinIcon img{
+    background-color: silver;
+    border-radius:30px;
+    padding: 11px;
+}
+.YoutubeIcon img{
+    background-color: silver;
+    border-radius:20px;
+    padding: 13px;
+}
+
+/* Copy Write Section */
+.CopyWrite_Body{
+    background-color: #989898;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:70px
+}
+.CopyWrite_Text p{
+    color: black;
+}
+.CopyWrite_Text_Privacy p{
+    color: silver;
+}
+.CopyWrite_DesignedBy
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.CopyWrite_DesignedBy img{
+    margin-top: 15px;
+}
+
+/* Mobile CSS */
+.MobileNavBar{
+    display: none;
+}
+.FrequentlyQuestions_Body-left{
+    width: 50%;
+}
+.FrequentlyQuestions_Body-right{
+    width: 50%;
+}
+.FrequentlyQuestions_Main{
+display: flex;
+gap: 20px;
+}
+.FrequentlyQuestions_Main .accordion{
+    margin-bottom: 10px;
+}
+.FrequentlyQuestions_Body-left span{
+    background-color: silver;
+    padding: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+.FrequentlyQuestions_Body-right span{
+    background-color: silver;
+    padding: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+.FooterDetails_Main_Body_LocationDiv h3{
+margin-bottom: 20px;
+}
+.FooterDetails_Main_Body_PhoneNumberDiv h3{
+    margin-bottom: 20px;
+}
+.FooterDetails_Main_Body_Services h3{
+    margin-bottom: 20px;
+}
+.FooterDetails_Main_Body_About h3{
+    margin-bottom: 20px;
+}
+.FooterDetails_Main_Body_About .AboutDiv a li{
+    margin: 10px 0px;
+}
+.FooterDetails_Main_Body_SocailMedia h3{
+    margin-bottom: 40px;
+}
+.FooterDetails_Main {
+    padding: 30px 0px;
+}
+.dropbtn {
+    display: flex;
+    padding: 16px;
+    background: none;
+    font-size: 16px;
+    color: #601A8B;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .show {display: block;}
+  .dropdown img{
+   height: 15px;
+   width: 15px;
+   margin-left: 5px;
+  }
+
+
+  /* Mobile Responsive */
+  @media only screen and (max-width: 600px) {
+    .Section6_main{
+        flex-direction: column;
+    }
+    .Section6_Background_paragrapgh2 p{
+        width: 100%;
+    }
+    .Section6_Background_paragrapgh1 p{
+        width: 100%; 
+    }
+    .Section6_main{
+        height: 100%;
+    }
+    .Section6_div{
+        margin-left: 0px;
+    }
+    .Section6_Background_paragrapgh1 p{
+        margin-left: 0px;;
+    }
+    .Section6_main{
+        padding:10px;
+    }
+    .Section6_Main_ImageDiv img{
+        margin-top: 0px;
+        width: 100%;
+    object-fit: cover;
+    }
+    .Section6_Background_paragrapgh2 p{
+        padding: 0px;
+        margin: 0px;
+    }
+    .RectangleBanner {
+        width: 100%;
+        margin-top: 0px;
+        justify-content: center;
+           /* gap: 10px; */
+    }
+    .RectangleBanner_Container{
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+    gap: 10px;
+    }
+    .PlumbingContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .PlumbingTextArea{
+        padding: 10px;
+    }
+    .PlumbingSectionParagrapgh{
+        width: 100%;
+    }
+    .CardBody_cardsmain{
+        flex-direction: column;
+        width: 100%;
+    }
+    .CardImageDiv {
+        height: 100%;
+        background-size: cover;
+        width: 100%;
+        gap: 10px;
+        
+    padding-bottom: 10px;
+
+    }
+
+.CardBody_ButtonDiv {
+    margin: 10px
+}
+.PlumbingListMain_Listing ul li{
+    margin-bottom: 20px;
+}
+.HvacListMain_Listing ul li{
+    margin-bottom: 20px;
+}
+.Section4ListMain{
+    gap: 0px;
+}
+.CardBody_card{
+    height: auto;
+    width: auto;
+}
+.Section4tdiv_text {
+    font-size: 25px;
+}
+.Section4Paragraphdiv_text {
+    font-size: 15px;
+}
+.howgetstart_color{
+    height: 140px;
+    margin-bottom: 5px;
+ 
+    text-align: center;
+    
+}
+
+.howgetstart_card_body_image img{
+    height: 140px;
+}
+.LineShapeDiv1 img {
+    display: none;
+}
+.ArrowLogo img{
+    display: none;
+}
+.LineShapeDiv img{
+    display: none;
+}
+.ArrowLogo1 img{
+    display: none;
+}
+.howgetstart_card{
+    gap: 0px;
+    margin-top: -75px;
+}
+.howgetstart_card_desp h4{
+    padding: 0px;
+}
+.howgetstart_card{
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.howgetstart_card_body{
+    width: 100%;
+    height: 100%;
+}
+.howgetstart_ButtonDiv{
+    padding: 0px;
+}
+.howgetstart_Button{
+    margin-bottom: 20px;
+}
+.Section6_Background_paragrapgh2 p{
+    padding-bottom: 30px;
+}
+.Section6_ButtonDiv {
+    padding-bottom: 30px;
+}
+.SuccessStories_ParagraphDiv{
+    flex-direction: column;
+}
+.SuccessStories_ParagraphDiv{
+    gap:65px;
+}
+.SuccessStories_Users_Body 
+{
+    display: block;
+}
+.StarServices_Main_Body_Services{
+    display: block;
+}
+.SuccessStories_ParagraphDiv_text{
+    display: block;
+   
+}
+.SuccessStories_Users_Body2 {
+  display: block;
+}
+.AboutIamgeBackground_body p {
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}
+.AboutIamgeBackground_body_Content{
+    margin-left: 30px;
+}
+.FrequentlyQuestions_Main{
+    flex-direction: column;
+}
+.FrequentlyQuestions_Body-left {
+    width: 100%;
+}
+.FrequentlyQuestions_Body-right {
+    width: 100%;
+}
+.FrequentlyQuestions_Body-left span{
+    padding: 26px;
+}
+.FrequentlyQuestions_Body-right span{
+    padding: 26px;
+}
+.FooterDetails_Main{
+    flex-direction: column;
+    gap:0px;
+    justify-content: center;
+    margin-left: 80px;
+}
+.CopyWrite_Body{
+    display: block;
+}
+.CopyWrite_Text p {
+    text-align: center;
+}
+.CopyWrite_Text p {
+    text-align: center;
+}
+.CopyWrite_DesignedBy{
+    justify-content: center;
+}
+.CopyWrite_Text_Privacy p {
+    text-align: center;
+}
+.FrequentlyQuestions_Body h3{
+    font-size: 25px;
+}
+ .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  .topnav img{
+    height: 100px;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    color: white;
+    background-color: white;
+  }
+ .HeaderContainer{
+    display: none;
+ }
+ .mobile-container{
+    display: block!important;
+    height: 100px;
+  }
+  .Section4ListMain{
+    display: block;
+  }
+  .imagediv{
+    height: 70vh;
+  }
+  .PlumbingSectionParagrapgh{
+    width: 95%;
+  }
+  .PlumbingSectionParagraph2{
+    width: 95%;
+  }
+  .howgetstart_paragrapgh p {
+    width: 95%;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+  .Section6_Background_paragrapgh1 p{
+    width: 95%;
+    font-size: 20px;
+  }
+  .Section6_Background_paragrapgh2 p {
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+}
+.SuccessStories_Paragraph p {
+    font-size: 20px;
+}
+.SuccessStories_ParagraphDiv_text{
+    font-size: 15px;
+}
+  .CupSection img{
+    height: 40px;
+  }
+  .CupSection p{
+    font-size: 15px;
+  }
+  .DollarSection img{
+    height: 40px;
+  }
+  .DollarSection p{
+    font-size: 15px;
+  }
+  .ClockSection img{
+    height: 40px;
+  }
+  .ClockSection p{
+    font-size: 15px;
+  }
+  .CardBody_Heading{
+    font-size: 20px;
+  }
+  
+  
+  .mobile-container{
+    display: none;
+  }

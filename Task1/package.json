@@ -1,0 +1,11 @@
+{
+  "name": "ortega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "ortega@1.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Task 1</title>
+      <link rel="stylesheet" href="../CSS/index.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <!-- Header Section -->
+
+         <div class="HeaderContainer">
+         <!-- Logo -->
+         <div>
+            <img src="../Images/logo.png" alt="" srcset="" height="120px" class="logo" >
+         </div>
+         <!-- Nav Bar -->
+         <nav class="navbar">
+            <ul>
+               <a href="">
+                  <li>ABOUT</li>
+               </a>
+   
+               
+                  <div class="dropdown">
+                     <li>
+                     <button onclick="myFunction()" class="dropbtn">SERVICES<img src="../Images/arrow1.png">
+                     </button>
+                     <div id="myDropdown" class="dropdown-content">
+                       <a href="#home">Home</a>
+                       <a href="#about">About</a>
+                       <a href="#contact">Contact</a>
+                     </div>
+                  </li>
+                   </div>
+               
+                
+                
+                <script>
+                /* When the user clicks on the button, 
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
+                  }
+                }
+                </script>
+               <img src="../Images/phone.png" height="25px" style="margin-top: -6px;margin-left: 10px;">
+               <a href="" style="margin-left: -20px;">
+                  <li>505-876-9138</li>
+               </a>
+               <a href="" style="color: white; text-decoration: none;">
+                  <li class="button" style="padding: 10px 20px">CALL NOW</li>
+               </a>
+            </ul>
+            <!-- Call Now Button -->
+            </ul>    
+         </nav>
+
+      </div>
+ 
+
+
+      <div class="mobile-container">
+
+         <!-- Top Navigation Menu -->
+         <div class="topnav">
+           <a href="#home" class="active"><img src="../Images/logo.png" alt=""></a>
+           <div id="myLinks">
+             <a href="">Home</a>
+             <a href="">About</a>
+             <a href="">Contact</a>
+           </div>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+             <i class="fa fa-bars"></i>
+           </a>
+         </div>
+         
+         <!-- End smartphone / tablet look -->
+         </div>
+         
+         <script>
+         function myFunction() {
+           var x = document.getElementById("myLinks");
+           if (x.style.display === "block") {
+             x.style.display = "none";
+           } else {
+             x.style.display = "block";
+           }
+         }
+         </script>
+
+
+
+
+      
+      <!-- Image Banner -->      
+      <!-- Background Image div -->
+      <div class="imagediv">
+         <div class="imagesdiv_body">
+            <!-- Banner Text -->
+            <div class="imagesdiv_body_text">
+               <h1 >First-Class HVAC and Plumbing 
+                  <br> Service in Valencia County 
+               </h1>
+            </div>
+            <!-- Banner Paragrapgh -->
+            <div class="imagesdiv_body_paragraph">
+               <p>Get excellent service at a price you can afford</p>
+            </div>
+            <!-- Buttons  -->
+            <div style="display: flex; gap: 20px;">
+               <a href="" class="Button1">SERVICES</a>   
+               <a href="" class="Button2">CALL NOW</a>
+            </div>
+         </div>
+      </div>
+      <!-- Rectangle Banner -->
+      <div class="RectangleBanner">
+         <div class="RectangleBanner_Container">
+            <div>
+               <!-- Clock Section -->
+               <div class="ClockSection">
+                  <img src="../Images/clock1 (1).png" height="60px">
+                  <p class="clocktext">Get <br>
+                     It Fixed Fast
+                  </p>
+               </div>
+            </div>
+            <!-- Dollar Section -->
+            <div class="DollarSection">
+               <img src="../Images/dollar1.png" height="60px">
+               <p class="dollartext">Don’t <br>
+                  Overspend
+               </p>
+            </div>
+            <!-- Cup Section -->
+            <div class="CupSection">
+               <img src="../Images/cup1.png" height="60px">
+               <p class="cuptext">Get <br>
+                  5 Star Services
+               </p>
+            </div>
+         </div>
+      </div>
+      <!-- Have a plumbing or HVAC issue?  SECTION -->
+      
+         <div class="PlumbingSectionDiv">
+            <div class="PlumbingContainer">
+            <div class="PlumbingSectionDiv_img">
+               <img src="../Images/image1.png">
+            </div>
+            <!-- Plumbing Section Text -->
+            <div class="PlumbingTextArea">
+               <h3 class="PlumbingSectionText">
+                  Have a plumbing or <br>
+                  HVAC issue?
+               </h3>
+               <!-- Plumbing Section Paragrapgh -->
+               <div>
+                  <p class="PlumbingSectionParagrapgh">
+                     When you have a water leak or heating issue, 
+                     getting it fixed shouldn't 
+                     be stressful. 
+                     But it’s hard to know who you can trust to 
+                     fix it fast without straining your bank account.
+                  </p>
+               </div>
+               <div>
+                  <p class="PlumbingSectionParagraph2">
+                     You should have easy access to fast and reliable service in Valencia County. 
+                  </p>
+               </div>
+               <div class="Buttondiv3">
+                  <a href="" class="Button3">CALL NOW</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Cards Section -->
+      <div class="CardImageDiv">
+         <!-- Card Heading -->
+         
+            <div class="CardBody">
+               <h1 class="CardBody_Heading">
+                  Get access to 5-Star HVAC and Plumbing In  <br>
+                  Valencia County with Ortega
+               </h1>
+               <!-- Cards -->
+               <div class="container"> 
+               <div class="CardBody_cardsmain">
+                  <!-- Card 1 -->
+                  <div class="CardBody_card">
+                     <img src="../Images/clip5.jpg" alt="Avatar" style="width:100%">
+                     <div class="CardBody_Logo">
+                        <img src="../Images/logo1.png" class ="CardBody_Logo_image">
+                     </div>
+                     <div class="CardBody_card_container">
+                        <h4 class="CardBody_card_container_text">Fast 5-Star Service</h4>
+                        <p class="CardBody_card_container_paragraph">Get the best heating and plumbing service in Valencia county. 
+                           We want to make sure that we do right by you every time. 
+                           From getting the job done as fast as possible to 
+                           checking that our truck isn’t blocking you in, 
+                           we’re dedicated to giving you the best service possible.
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Card 2 -->
+                  <div class="CardBody_card">
+                     <img src="../Images/clip6.jpg" alt="Avatar" style="width:100%">
+                     <div class="CardBody_Logo">
+                        <img src="../Images/logo2.png" class ="CardBody_Logo_image">
+                     </div>
+                     <div class="CardBody_card_container">
+                        <h4 class="CardBody_card_container_text">Affordable Pricing</h4>
+                        <p class="CardBody_card_container_paragraph">Don’t overspend ever again. 
+                           Get transparent pricing on what needs to get 
+                           fixed and nothing more. We care about your business 
+                           and will never overcharge you.
+                        </p>
+                     </div>
+                  </div>
+                  <!-- Card 3 -->
+                  <div class="CardBody_card">
+                     <img src="../Images/clip7.jpg" alt="Avatar" style="width:100%">
+                     <div class="CardBody_Logo">
+                        <img src="../Images/logo3.png" class ="CardBody_Logo_image">
+                     </div>
+                     <div class="CardBody_card_container">
+                        <h4 class="CardBody_card_container_text">Transparent Advice</h4>
+                        <p class="CardBody_card_container_paragraph">Never replace something that can be fixed. 
+                           And don’t just take our word for it either. 
+                           We use the industry-standard Repair v/s Replace Scale 
+                           by Nexstar to know if something needs to be fixed or replaced. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               </div>
+               <div class="CardBody_ButtonDiv">
+                  <a href="" class="CardBody_Button">CALL NOW</a>
+               </div>
+            </div>
+      </div>
+      <!-- SECTION 4 -->
+      <div class="Section4main">
+         <div class="Section4tdiv">
+            <h1 class="Section4tdiv_text" >Have a plumbing or HVAC issue? <br>
+               We have you covered.
+            </h1>
+         </div>
+         <div class="Section4ListMain">
+            <!-- Plumbing List  -->
+            <div class="PlumbingListDIv">
+               <p class="PlumbingListMain_Text">
+                  Plumbing
+               </p>
+               <div class="PlumbingListMain_Listing">
+                  <ul>
+                     <li>Water Heater Repair & Replacement</li>
+                     <li>Faucet Repair & Replacement </li>
+                     <li>Tank-less Water Heater Repair & Replacement </li>
+                     <li>Yard leak / Yard line repair / Replacement </li>
+                     <li>Drain services (Residential or Commercial)</li>
+                     <li>Water Softeners</li>
+                     <li>Water & Sewer Re-pipes</li>
+                     <li>Lorem ipsum dolor sit amet</li>
+                  </ul>
+               </div>
+            </div>
+            <!-- HVAC List  -->
+            <div class="HvacListDIv">
+               <p class="HvacListMain_Text">
+                  HVAC
+               </p>
+               <div class="HvacListMain_Listing">
+                  <ul>
+                     <li>A/C Conversion</li>
+                     <li>A/C Repair & Replacement </li>
+                     <li>Swamp Cooler Repair & Replacement </li>
+                     <li>Ductless Mini Splits </li>
+                     <li>Furnace Repair / Replacement </li>
+                     <li>Boiler Repair & Replacement</li>
+                     <li>Wall & Console Heater</li>
+                     <li>Combi Boiler Repair & Replacemen</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="Section4Paragraphdiv">
+            <p class="Section4Paragraphdiv_text">
+               Don’t see what you need listed? Give us a call, 
+               and <br> we’ll see what we can do to help.
+            </p>
+         </div>
+         <div class="Section4_ButtonDiv">
+            <a href="" class="Section4_Button">CALL NOW</a>
+         </div>
+      </div>
+      <!-- Get Started Section -->
+      <div class="howgetstart_main">
+         <div class="howgetstart_color">
+            <h2>How Get Started</h2>
+            <div class="LineShapeDiv">
+               <img src="../Images/linelogo1.png" alt="" srcset="">
+            </div>
+            <div class="ArrowLogo1">
+               <img src="../Images/arrow111.png" alt="" srcset="">
+            </div>
+            <div class="ArrowLogo">
+               <img src="../Images/arrow111.png" alt="" srcset="">
+            </div>
+            <div class="LineShapeDiv1">
+               <img src="../Images/linelogo1.png" alt="" srcset="">
+            </div>
+         </div>
+         <div class="howgetstart_card">
+            <!-- Card 1 -->
+            <div class="howgetstart_card_body">
+               <div  class="howgetstart_card_body_image">
+                  <img src="../Images/img1a.png">
+               </div>
+               <div class="howgetstart_card_desp">
+                  <h4><b>Call Us</b></h4>
+                  <p>Give us a call, and we’ll send some one your way as fast as possible.
+                  </p>
+               </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="howgetstart_card_body">
+               <div  class="howgetstart_card_body_image">
+                  <img src="../Images/img2a.png">
+               </div>
+               <div class="howgetstart_card_desp">
+                  <h4><b>Get a Transparent Estimate</b></h4>
+                  <p>We’ll come out and take a look at your plumbing or HVAC system 
+                  </p>
+               </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="howgetstart_card_body">
+               <div  class="howgetstart_card_body_image">
+                  <img src="../Images/img3a.png">
+               </div>
+               <div class="howgetstart_card_desp">
+                  <h4><b>Get It Fixed Fast</b></h4>
+                  <p>Get your issue fixed and go on with your day like it never happ
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="howgetstart_paragrapgh">
+            <p >
+               Don’t see what you need listed? Give us a call,
+               and <br> we’ll see what we can do to help.
+            </p>
+         </div>
+         <div class="howgetstart_ButtonDiv">
+            <a href="" class="howgetstart_Button">CALL NOW</a>
+         </div>
+      </div>
+      <!-- Section 6 -->
+      <div class="Section6_main">
+         <div class="Section6_div">
+            <div class="Section6_Background_paragrapgh1">
+               <p>We know how much of a 
+                  hassle it is to have a water 
+                  leak or have the A/C go out.
+               </p>
+            </div>
+            <div class="Section6_Background_paragrapgh2">
+               <p>
+                  We’ve been in this business for over 15 years 
+                  and know how frustrating it is to deal with 
+                  plumbing and heating problems. Having your 
+                  house turn into a sauna is the last thing you 
+                  should have to deal with. Our team of licensed 
+                  professionals are here to make getting HVAC 
+                  and plumbing services as easy and painless 
+                  as possible.
+               </p>
+            </div>
+            <div class="Section6_ButtonDiv">
+               <a href="" class="Section6_Button">CALL NOW</a>
+            </div>
+         </div>
+         <div class="Section6_Main_ImageDiv">
+            <img src="../Images/imageSection6.png" alt="" srcset="">
+         </div>
+      </div>
+      <!-- Success Stories [Section 7] -->
+      <div class="SuccessStories_Main">
+        <div class="container">
+         <div class="SuccessStories_Text">
+            <h3>Success Stories</h3>
+         </div>
+         <div class="SuccessStories_Paragraph">
+            <p>Don't just take our word for it. 
+               Here are 3 success stories <br> from
+               clients who share their results!
+            </p>
+         </div>
+         <div  class="SuccessStories_ParagraphDiv">
+            <div class="SuccessStories_ParagraphDiv_Paragrapgh1">
+               <img src="../Images/“.png" alt="">
+               <div class="SuccessStories_ParagraphDiv_text">
+                  Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. 
+                  Aenean sollicitudin, lorem quis bibendum auctor, 
+                  nisi elit consequat ipsum, nec sagittis 
+                  sem nibh id elit. felis dapibus condimentum 
+                  sit amet a augue. Sed non neque elit. 
+                  Sed ut imperdiet nisi. Proin condimentum 
+                  fermentum nunc. Etiam pharetra, 
+               </div>
+               <div class="SuccessStories_Users_Body">
+                <div class="SuccessStories_Users_Image">
+                   <img src="../Images/user1.png" alt="">
+                </div>
+                <div class="SuccessStories_Users_TextDiv">
+                   <div class="SuccessStories_Users_Text1">
+                      <p>LOREM IPSUM</p>
+                   </div>
+                   <div class="SuccessStories_Users_Text2" >
+                      <p>Manager</p>
+                   </div>
+                </div>
+                <div class="SuccessStories_GoogleImageDiv">
+                    <img src="../Images/Google.png" alt="">
+                 </div>
+             </div>
+            </div>
+            <div class="SuccessStories_ParagraphDiv_Paragrapgh1">
+               <img src="../Images/“.png" alt="">
+               <div class="SuccessStories_ParagraphDiv_text">
+                  Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. 
+                  Aenean sollicitudin, lorem quis bibendum auctor, 
+                  nisi elit consequat ipsum, nec sagittis 
+                  sem nibh id elit. felis dapibus condimentum 
+                  sit amet a augue. Sed non neque elit. 
+                  Sed ut imperdiet nisi. Proin condimentum 
+                  fermentum nunc. Etiam pharetra, 
+               </div>
+               <div class="SuccessStories_Users_Body2">
+                <div class="SuccessStories_Users_Image2">
+                   <img src="../Images/user2.png" alt="">
+                </div>
+                <div class="SuccessStories_Users_TextDiv">
+                   <div class="SuccessStories_Users_Text1">
+                      <p>consectetur adipiscing</p>
+                   </div>
+                   <div class="SuccessStories_Users_Text2" >
+                      <p>Manager</p>
+                   </div>
+                </div>
+             </div>
+            </div>
+         </div>
+         <br>
+        </div>
+      </div>
+      <!-- Star Services -->
+      <div class="container">
+      <div class="StarServices_Main">
+         <div class="StarServices_Main_Body">
+            <div>
+               <h3>What 5 Star Service Means to Us</h3>
+            </div>
+         </div>
+         <div class="StarServices_Main_Body_Services">
+            <!-- Fast Services Section -->
+            <div class="FastMain_Body">
+               <div class="FastMain_Body_ImageText">
+                  <div>
+                     <img src="../Images/logoa11.png" alt="" sizes="" srcset="">
+                  </div>
+                  <h2>Fast</h2>
+               </div>
+               <div class="FastMain_Body_Paragrapgh">
+                  <p>
+                     We know what it’s like to have an 
+                     urgent heating or plumbing problem come 
+                     up just to be told that someone won’t be 
+                     able to come out for a “couple weeks.”
+                     If you live in Valencia county, 
+                     we promise to deliver the 
+                     fastest service possible.
+                  </p>
+               </div>
+            </div>
+            <!-- Courteous & Polite -->
+            <div class="CourteousPolite_Body">
+               <div class="CourteousPolite_Body_ImageText">
+                  <div>
+                     <img src="../Images/logoa21.png" alt="" sizes="" srcset="">
+                  </div>
+                  <h2>Courteous & Polite</h2>
+               </div>
+               <div class="CourteousPolite_Paragrapgh">
+                  <p>
+                     When you call a technician or plumber that 
+                     you don’t know to come into  your home, 
+                     it can be worrisome. Our promise to you 
+                     is that we will always be courteous and polite.
+                     Everything from making sure our truck is 
+                     parked in the right place to checking that 
+                     you are 100% satisfied with our service is 
+                     important to us.
+                  </p>
+               </div>
+            </div>
+            <!-- Reliable  -->
+            <div class="Reliable_Body">
+               <div class="Reliable_Body_ImageText">
+                  <div>
+                     <img src="../Images/logoa31.png" alt="" sizes="" srcset="">
+                  </div>
+                  <h2>Reliable</h2>
+               </div>
+               <div class="Reliable_Body_Paragrapgh">
+                  <p>
+                     If you have a problem, we’ll be there when you 
+                     need us. We promise to always be a service that 
+                     you can rely on to call and fix whatever plumbing 
+                     or HVAC issue you may have. Our team of licensed 
+                     professionals are ready to help you. 
+                     Your business is our priority. 
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="StarServices_ButtonDiv">
+            <a href="" class="StarServices_Button">CALL NOW</a>
+         </div>
+      </div>
+    </div>
+      <!-- About Iamge Background Section-->
+      <div class="AboutIamgeBackground_Main">
+         
+         <div class="AboutIamgeBackground_body">
+            
+            <div class="AboutIamgeBackground_body_Content">
+               <h3>
+                  About Ortega Plumbing and Heating 
+               </h3>
+               <p>
+                  Most homeowners don’t know where to turn when there’s a 
+                  plumbing or HVAC issue in their home. At Ortega Plumbing 
+                  and Heating, we offer customers 5-Star plumbing and HVAC 
+                  services at an affordable price so they can have peace of mind.
+               </p>
+               <div class="LearnMoreImageDiv">
+                  <a href="">Learn More</a> 
+                  <img src="../Images/rightarrow1.png" alt="" srcset="">
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <!-- Frequently Asked Questions  -->
+      <div class="FrequentlyQuestions_Body">
+         <h3>
+            Frequently Asked Questions 
+         </h3>
+      </div>
+      <div class="container">
+      <div class="FrequentlyQuestions_Main ">
+         <div class="FrequentlyQuestions_Body-left">
+         <button class="accordion">
+            <p><span>Que</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p></button>
+         <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+         
+         <button class="accordion"><p><span>Que</span></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></button>
+         <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+         
+         <button class="accordion"><p><span>Que</span></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></button>
+         <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+      </div>
+      <div class="FrequentlyQuestions_Body-right">
+         <button class="accordion"><p><span>Que</span></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></button>
+         <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+         
+         <button class="accordion"><p><span>Que</span></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></button>
+         <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+         
+         <button class="accordion"><p><span>Que</span></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></button>
+         <div class="panel">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+      </div>
+      </div>
+   </div>
+      <!-- Footer Section -->
+      <div class="FooterDiv_Main">
+       
+         <div class="FooterDiv_Main_Body">
+            <div>
+               <h3>Excellent Service at an Affordable Price</h3>
+            </div>
+            <div class="StarServices_ButtonDiv">
+               <a href="" class="StarServices_Button">CALL NOW</a>
+            </div>
+         </div>
+
+         <div class="FooterDetails_Main">
+            <div class="FooterDetails_Main_Body">
+               <div class="FooterDetails_Main_Body_LocationDiv">
+                  <h3>LOCATION :</h3>
+                  <div>
+                     <p>2206 Sun Ranch Village Loop, <br>
+                        Los Lunas, NM 87031
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="FooterDetails_Main_Body">
+               <div class="FooterDetails_Main_Body_PhoneNumberDiv">
+                  <h3>Phone Number :</h3>
+                  <div class="PhoneAndNumberDiv">
+                     <div><img src="../Images/phone.png" >
+                     </div>
+                     <p>505-876-9138</p>
+                  </div>
+               </div>
+            </div>
+            <div class="FooterDetails_Main_Body">
+               <div class="FooterDetails_Main_Body_Services">
+                  <h3>SERVICE HOURS :</h3>
+                  <div class="ServicesDiv">
+                     <p>Monday-Friday 8am-5pm</p>
+                  </div>
+               </div>
+            </div>
+            <div class="FooterDetails_Main_Body">
+               <div class="FooterDetails_Main_Body_About">
+                  <h3>AboutIamgeBackground_Main:</h3>
+                  <div class="AboutDiv">
+                     <div>
+                        <a href=""><li>Contact</li></a>
+                       <a href=""><li>Career</li></a> 
+                        <a href=""><li>Faq</li></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="FooterDetails_Main_Body">
+               <div class="FooterDetails_Main_Body_SocailMedia">
+                  <h3>FOLLOW US ON :</h3>
+                  <div class="SocailMediaIconDiv">
+                    <div class="FacebookIcon"> <a href=""><img src="../Images/socailicon1.png" alt=""></a></div>
+                     <div class="TweeterIcon"><a href=""><img src="../Images/socailicon2.png" alt=""></a></div>
+                    <div class="LinkedinIcon" > <a href=""><img src="../Images/socailicon3.png" alt=""></a></div>
+                     <div class="YoutubeIcon"><a href=""><img src="../Images/socailicon4.png" alt=""></a></div>
+                     
+                    
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- CopyWrite Section -->
+      <div class="CopyWrite_Main">
+         <div class="CopyWrite_Body">
+            <div class="CopyWrite_Text">
+               <p>© 2020 Ortega Plumbing and Heating. All Rights Reserved</p>
+            </div>
+            <div class="CopyWrite_Text_Privacy">
+               <p>Privacy | Terms And Services</p>
+            </div>
+            <div class="CopyWrite_DesignedBy">
+               <p>Designed By</p>
+               <div><img src="../Images/DesignedImage.png" alt="" srcset=""></div>
+            </div>
+         </div>
+      </div>
+</html>
+
+<script>
+   var acc = document.getElementsByClassName("accordion");
+   var i;
+   
+   for (i = 0; i < acc.length; i++) {
+     acc[i].addEventListener("click", function() {
+       this.classList.toggle("active");
+       var panel = this.nextElementSibling;
+       if (panel.style.maxHeight) {
+         panel.style.maxHeight = null;
+       } else {
+         panel.style.maxHeight = panel.scrollHeight + "px";
+       } 
+     });
+   }
+   </script>
